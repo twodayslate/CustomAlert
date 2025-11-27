@@ -7,7 +7,8 @@ let package = Package(
     name: "CustomAlert",
     platforms: [
         .iOS(.v15),
-        .visionOS(.v1)
+        .visionOS(.v1),
+        .macOS(.v10_15)
     ],
     products: [
         .library(
